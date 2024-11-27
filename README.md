@@ -59,7 +59,7 @@ node dist/json-to-vcf.js
 The VCF file (contact.vcf) will be generated in the project directory.
 
 File Structure
-
+```
 json-to-vcf/
         ├── src/
         │   └── json-to-vcf.ts  # Main TypeScript file
@@ -70,7 +70,7 @@ json-to-vcf/
         ├── tsconfig.json        # TypeScript configuration
         └── README.md            # Documentation
 
-
+```
 # Documentation
 Customization
 Input File: To change the input file name or path, update the fs.readFile call in json-to-vcf.ts.
