@@ -61,14 +61,16 @@ The VCF file (contact.vcf) will be generated in the project directory.
 File Structure
 
 json-to-vcf/
-├── src/
-│   └── json-to-vcf.ts  # Main TypeScript file
-├── contacts.txt         # Input JSON file with contact details
-├── dist/
-│   └── json-to-vcf.js   # Compiled JavaScript file
-├── package.json         # Project dependencies and scripts
-├── tsconfig.json        # TypeScript configuration
-└── README.md  
+        ├── src/
+        │   └── json-to-vcf.ts  # Main TypeScript file
+        ├── contacts.txt         # Input JSON file with contact details
+        ├── dist/
+        │   └── json-to-vcf.js   # Compiled JavaScript file
+        ├── package.json         # Project dependencies and scripts
+        ├── tsconfig.json        # TypeScript configuration
+        └── README.md            # Documentation
+
+
 # Documentation
 Customization
 Input File: To change the input file name or path, update the fs.readFile call in json-to-vcf.ts.
@@ -79,5 +81,5 @@ Missing Dependencies: Run npm install to ensure all required packages are instal
 Contributing
 Contributions are welcome! If you have any ideas or suggestions, feel free to open an issue or submit a pull request.
 
-License
-This project is licensed under the MIT License.
+## License
+This project is licensed under the [MIT License](LICENSE).
